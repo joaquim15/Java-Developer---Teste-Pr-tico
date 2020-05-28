@@ -74,11 +74,88 @@ java -jar Imposto-0.0.1-SNAPSHOT.jar
 
 ## Teste da API
 
-```sh
+```git
 Abra o Postman e crie uma nova aba para uma requisicao do tipo POST e insira a URL conforme a imagem abaixo.
 ```
 ![image](https://user-images.githubusercontent.com/13018634/83089201-25d74b00-a06c-11ea-8e49-d71d44f46cf0.png)
 
-```sh
-edit autoexec.bat
+## JSON para requisição
+```json
+Output -1 
+ [ 
+ 	{ 
+ 		"descricao":"book", 
+ 		"preco": "12.49",
+ 		"quantidade": "1",
+ 		"isImportado": false,
+    	"isIsento": true
+	},
+	{ 
+ 		"descricao":"music CD", 
+ 		"preco": "14.99",
+ 		"quantidade": "1",
+ 		"isImportado": false,
+    	"isIsento": false
+	},
+	{ 
+ 		"descricao":"chocolate bar", 
+ 		"preco": "0.85",
+ 		"quantidade": "1",
+ 		"isImportado": false,
+    	"isIsento": true
+	}
+]
 
+output 2
+
+ [ 
+ 	{ 
+ 		"descricao":"imported box of chocolates", 
+ 		"preco": "10.00",
+ 		"quantidade": "1",
+ 		"isImportado": true,
+    	"isIsento": true
+	},
+	{ 
+ 		"descricao":"music CD", 
+ 		"preco": "47.50",
+ 		"quantidade": "1",
+ 		"isImportado": true,
+    	"isIsento": false
+	}
+]
+
+output 3
+
+ [ 
+ 	{ 
+ 		"descricao":"imported bottle of perfume", 
+ 		"preco": "27.99",
+ 		"quantidade": "1",
+ 		"isImportado": true,
+    	"isIsento": false
+	},
+	{ 
+ 		"descricao":"bottle of perfume", 
+ 		"preco": "18.99",
+ 		"quantidade": "1",
+ 		"isImportado": false,
+    	"isIsento": true
+	},
+	{ 
+ 		"descricao":"packet of headache pills", 
+ 		"preco": "9.75",
+ 		"quantidade": "1",
+ 		"isImportado": false,
+    	"isIsento": true
+	},
+	{ 
+ 		"descricao":"imported box of chocolates", 
+ 		"preco": "11.25",
+ 		"quantidade": "1",
+ 		"isImportado": true,
+    	"isIsento": true
+	}
+]
+
+```
