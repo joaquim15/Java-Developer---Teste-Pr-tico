@@ -75,9 +75,9 @@ java -jar Imposto-0.0.1-SNAPSHOT.jar
 ## Teste da API
 
 ```sh
-Abra o Postman e crie uma nova aba para uma requisicao do tipo POST 
+Abra o Postman e crie uma nova aba para uma requisicao do tipo POST e insira a URL conforme a imagem abaixo.
 ```
-
+![image](https://user-images.githubusercontent.com/13018634/83089201-25d74b00-a06c-11ea-8e49-d71d44f46cf0.png)
 
 ```sh
 edit autoexec.bat
