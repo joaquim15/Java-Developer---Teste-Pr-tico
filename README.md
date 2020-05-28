@@ -6,7 +6,7 @@
 ## Instalação
 
 ### O que você precisa
-+ JDK 8 ou Posterior
++ JDK 11 ou Posterior
 + Install Maven
 + GIT
 
@@ -15,7 +15,7 @@
 + [Install Maven on Linux](https://www.baeldung.com/install-maven-on-windows-linux-mac#installing-maven-on-linux)
 
 ## Install Java
-+ [Install Java](https://www.baeldung.com/java-home-on-windows-7-8-10-mac-os-x-linux)
++ [Install Java](https://java.tutorials24x7.com/blog/how-to-install-java-11-on-windows)
 
 ## Install GIT
 + [Install GIT](https://www.atlassian.com/br/git/tutorials/install-git)
