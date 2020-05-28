@@ -78,7 +78,6 @@ java -jar Imposto-0.0.1-SNAPSHOT.jar
 Abra o Postman e crie uma nova aba para uma requisicao do tipo POST 
 ```
 
-Windows:
 
 ```sh
 edit autoexec.bat
